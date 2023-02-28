@@ -14,7 +14,9 @@ export const App: FC<Props> = ({ testID = 'App' }) => {
   return (
     <NavigationContainer>
       <SafeAreaView style={styles.container} testID={testID}>
-        <Text testID="tempTitle">Replace me with navigation screens</Text>
+        <Text testID="tempTitle" style={styles.text}>
+          Replace me with navigation screens
+        </Text>
         <View testID="icons">
           <CardIcon color={$color.red} />
           <CardIcon color={$color.black} />

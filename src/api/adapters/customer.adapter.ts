@@ -10,4 +10,8 @@
 
 //export const adaptCustomerDetails = (customer: ExternalCustomerDetails): CustomerDetails => {};
 
-export const temp = () => {};
+export const temp = () => {
+  return {
+    name: 'temp',
+  };
+};
