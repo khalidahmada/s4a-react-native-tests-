@@ -11,7 +11,9 @@
     "tdd": "jest --colors --watchAll",
     "pods-clean": "rm -rf ios/Pods && rm -rf ios/Podfile.lock",
     "pods": "cd ios && pod install && cd ..",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "server-mock:install": "yarn --cwd ./server install",
+    "server-mock:dev": "yarn --cwd ./server dev"
   },
   "dependencies": {
     "@react-navigation/native": "^6.1.6",

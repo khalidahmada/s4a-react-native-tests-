@@ -7,7 +7,7 @@ import customer3301426500510 from './customers/3301426500510.json';
 import customer3301426500511 from './customers/3301426500511.json';
 import customer3301426500512 from './customers/3301426500512.json';
 
-const PORT = 3003;
+const PORT = process.env.PORT || 3003;
 
 const app = express();
 app.use(cors());
