@@ -4,13 +4,15 @@ import { NavigationContainer } from '@react-navigation/native';
 
 import styles from './App.styles';
 
-type Props = {};
+type Props = {
+  testID?: string;
+};
 
-export const App: FC<Props> = () => {
+export const App: FC<Props> = ({ testID = 'App' }) => {
   return (
     <NavigationContainer>
-      <SafeAreaView style={styles.container}>
-        <Text>Replace me with navigation screens</Text>
+      <SafeAreaView style={styles.container} testID={testID}>
+        <Text testID="tempTitle">Replace me with navigation screens</Text>
       </SafeAreaView>
     </NavigationContainer>
   );
