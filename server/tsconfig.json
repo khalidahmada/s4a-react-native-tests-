@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "forceConsistentCasingInFileNames": true,
+    "incremental": false,
+    "target": "esnext",
+    "module": "commonjs",
+    "lib": ["es2017"],
+    "noEmit": true,
+    "isolatedModules": true,
+    "strict": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "skipLibCheck": false,
+    "resolveJsonModule": true,
+    "outDir": "./dist",
+    "baseUrl": ".",
+    "rootDirs": ["./src", "./src/__tests__"]
+  },
+  "exclude": ["node_modules", "./__test__/**/*"],
+  "include": ["./src"]
+}

@@ -1,0 +1,21 @@
+{
+  "Id": "3301426500509",
+  "PersonalInfos": {
+    "FirstName": "Sara",
+    "LastName": "Smith",
+    "Birthday": "1998-02-15T09:09:48.015Z"
+  },
+  "ContactInfos": {
+    "Address": {
+      "Street": "1 rue de la paix",
+      "City": "Paris",
+      "Zip": "75000"
+    },
+    "Email": null,
+    "Phone": null
+  },
+  "Loyalty": {
+    "Points": 100,
+    "Status": "White"
+  }
+}

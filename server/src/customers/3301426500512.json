@@ -1,0 +1,21 @@
+{
+  "Id": "3301426500512",
+  "PersonalInfos": {
+    "FirstName": "Nora",
+    "LastName": "Sandra",
+    "Birthday": null
+  },
+  "ContactInfos": {
+    "Address": {
+      "Street": "5 rue de la paix",
+      "City": "Paris",
+      "Zip": "75000"
+    },
+    "Email": null,
+    "Phone": "+336666666"
+  },
+  "Loyalty": {
+    "Points": 510,
+    "Status": "Black"
+  }
+}

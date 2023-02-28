@@ -1,0 +1,72 @@
+{
+  "Data": [
+    {
+      "Id": "3301426500509",
+      "PersonalInfos": {
+        "FirstName": "Sara",
+        "LastName": "Smith",
+        "Birthday": "1998-02-15T09:09:48.015Z"
+      },
+      "ContactInfos": {
+        "Address": {
+          "Street": "1 rue de la paix",
+          "City": "Paris",
+          "Zip": "75000"
+        },
+        "Email": null,
+        "Phone": null
+      }
+    },
+    {
+      "Id": "3301426500510",
+      "PersonalInfos": {
+        "FirstName": "John",
+        "LastName": "Doe",
+        "Birthday": "1999-03-14T09:09:48.015Z"
+      },
+      "ContactInfos": {
+        "Address": {
+          "Street": "1 rue de la paix",
+          "City": "Paris",
+          "Zip": "75000"
+        },
+        "Email": "jhone@example.com",
+        "Phone": "+336666666"
+      }
+    },
+    {
+      "Id": "3301426500511",
+      "PersonalInfos": {
+        "FirstName": "Maria",
+        "LastName": "Doe",
+        "Birthday": "2000-03-14T09:09:48.015Z"
+      },
+      "ContactInfos": {
+        "Address": {
+          "Street": "5 rue de la paix",
+          "City": "Paris",
+          "Zip": "75000"
+        },
+        "Email": null,
+        "Phone": "+336666666"
+      }
+    },
+    {
+      "Id": "3301426500512",
+      "PersonalInfos": {
+        "FirstName": "Nora",
+        "LastName": "Sandra",
+        "Birthday": null
+      },
+      "ContactInfos": {
+        "Address": {
+          "Street": "5 rue de la paix",
+          "City": "Paris",
+          "Zip": "75000"
+        },
+        "Email": null,
+        "Phone": "+336666666"
+      }
+    }
+  ]
+}

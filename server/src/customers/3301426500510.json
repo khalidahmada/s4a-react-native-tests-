@@ -1,0 +1,21 @@
+{
+  "Id": "3301426500510",
+  "PersonalInfos": {
+    "FirstName": "John",
+    "LastName": "Doe",
+    "Birthday": "1999-03-14T09:09:48.015Z"
+  },
+  "ContactInfos": {
+    "Address": {
+      "Street": "1 rue de la paix",
+      "City": "Paris",
+      "Zip": "75000"
+    },
+    "Email": "jhone@example.com",
+    "Phone": "+336666666"
+  },
+  "Loyalty": {
+    "Points": 1500,
+    "Status": "Gold"
+  }
+}

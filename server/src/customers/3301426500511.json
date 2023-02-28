@@ -1,0 +1,21 @@
+{
+  "Id": "3301426500511",
+  "PersonalInfos": {
+    "FirstName": "Maria",
+    "LastName": "Doe",
+    "Birthday": "2000-03-14T09:09:48.015Z"
+  },
+  "ContactInfos": {
+    "Address": {
+      "Street": "5 rue de la paix",
+      "City": "Paris",
+      "Zip": "75000"
+    },
+    "Email": null,
+    "Phone": "+336666666"
+  },
+  "Loyalty": {
+    "Points": 540,
+    "Status": "Black"
+  }
+}
