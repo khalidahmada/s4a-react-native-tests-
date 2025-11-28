@@ -1,5 +1,5 @@
 import React from 'react';
-import render from 'react-test-renderer';
+import ReactTestRenderer from 'react-test-renderer';
 
 import { App } from './App';
 import { ArrowRightIcon, CardIcon, CustomerIcon } from './components';
@@ -10,8 +10,14 @@ jest.mock('@react-navigation/native', () => ({
 }));
 
 describe('App', () => {
-  it('renders correctly', () => {
-    const { root } = render.create(<App />);
+  it('renders correctly', async () => {
+    let renderer: ReactTestRenderer.ReactTestRenderer;
+
+    await ReactTestRenderer.act(() => {
+      renderer = ReactTestRenderer.create(<App />);
+    });
+
+    const root = renderer!.root;
 
     expect(root.findByProps({ testID: 'App' })).toBeTruthy();
     expect(root.findByProps({ testID: 'tempTitle' }).props.children).toEqual('Replace me with navigation screens');
